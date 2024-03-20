@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -18,5 +18,6 @@
     <PackageReference Include="MediatR" Version="12.2.0" />
     <PackageReference Include="UnitsNet" Version="5.31.0" />
     <PackageReference Include="SPIN.Contracts" Version="0.1.0" />
+    <PackageReference Include="SPIN.Devices.Abstractions" Version="0.1.0" />
   </ItemGroup>
 </Project>

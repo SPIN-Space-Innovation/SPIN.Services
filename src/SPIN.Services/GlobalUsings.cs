@@ -25,3 +25,4 @@ global using UnitsNet;
 
 global using SPIN.Contracts.Requests;
 global using SPIN.Contracts.Responses;
+global using SPIN.Devices.Abstractions;
