@@ -22,4 +22,4 @@ jobs:
     - name: Package
       run: dotnet pack --configuration Release
     - name: Publish
-      run: dotnet nuget push "src/SPIN.Contracts/bin/Release/SPIN.Contracts.0.1.0.nupkg" --source "SPIN-github" -k "${{ secrets.PACKAGE }}"
+      run: dotnet nuget push "src/SPIN.Services/bin/Release/*.nupkg" --source "SPIN-github" -k "${{ secrets.PACKAGE }}"
