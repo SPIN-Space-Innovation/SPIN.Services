@@ -22,3 +22,6 @@
 
 global using MediatR;
 global using UnitsNet;
+
+global using SPIN.Contracts.Requests;
+global using SPIN.Contracts.Responses;
