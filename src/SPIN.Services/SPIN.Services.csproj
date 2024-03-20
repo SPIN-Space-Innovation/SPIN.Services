@@ -13,4 +13,8 @@
     <Company>SPIN - Space Innovation</Company>
     <RepositoryUrl>https://github.com/SPIN-Space-Innovation/SPIN.Services</RepositoryUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="UnitsNet" Version="5.31.0" />
+  </ItemGroup>
 </Project>
